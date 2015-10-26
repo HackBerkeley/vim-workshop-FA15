@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="buttondown.css" type="text/css" />
+</head>
+<body>
+<p><strong>Q: What is &quot;vimrc&quot;?</strong></p>
+<p>A: The vimrc file is what you use for permanently changing settings.</p>
+<p><strong>Q: How do I use it?</strong></p>
+<p>A: It's literally just a series of <code>:</code> commands that get run when you start Vim. Put whatever you want in it. One command per line, and the <code>:</code> is optional. Lines that start with <code>&quot;</code> are comments.</p>
+<p><strong>Q: Sounds good, where is my vimrc file?</strong></p>
+<p>A:</p>
+<ul>
+<li><a href="http://superuser.com/questions/86246/where-should-the-vimrc-file-be-located-on-windows-7">Windows</a></li>
+<li><a href="http://stackoverflow.com/questions/10921441/where-is-my-vimrc-file">Not Windows</a></li>
+</ul>
+<p><strong>Q: What are some good things to start off my vimrc with?</strong></p>
+<p>A:</p>
+<p>Vim is, by default, set to be backwards-compatible with its 1976 ancestor vi. Unfortunately, this means a lot of its default settings are really weird. I won't get into it, but having this setting is just a universally-accepted Good Idea.</p>
+<pre><code>set nocompatible</code></pre>
+<p>Show in-progress commands:</p>
+<pre><code>set showcmd</code></pre>
+<p>Show current line and column number:</p>
+<pre><code>set ruler</code></pre>
+<p>Show a nice little status bar:</p>
+<pre><code>set laststatus=2</code></pre>
+<p>Show line numbers:</p>
+<pre><code>set number</code></pre>
+<p>Turn on syntax highlighting:</p>
+<pre><code>syntax on</code></pre>
+<p>Finally, the escape key is really important in Vim, and really far away! You might want to use a mapping or two to make this easier.</p>
+<p>(What's a mapping? <code>:imap x yz</code> means that whenever you press <code>x</code> in insert mode, Vim will act like you pressed <code>yz</code>. So you know, you usually want <code>:inoremap</code>, which is non-recursive. See <code>:help key-mapping</code> or any of various online resources for more.)</p>
+<p>Here's one example of a pair of mappings you can use to make getting out of insert mode easier. (On a standard QWERTY keyboard, this is really good, because you can just hit j and k with your index and middle fingers.)</p>
+<pre><code>inoremap jk &lt;Esc&gt;
+inoremap kj &lt;Esc&gt;</code></pre>
+</body>
+</html>

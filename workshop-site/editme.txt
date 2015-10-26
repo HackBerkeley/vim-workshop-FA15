@@ -1,0 +1,225 @@
+==========================================================
+1.
+               Hello, world: Inserting text
+               ----------------------------
+
+Welcome to Intro to Vim!
+
+
+
+
+
+
+
+
+
+
+==========================================================
+2.
+                 Inserting text, part II
+                 -----------------------
+
+Whats the meaning of Stonehenge
+
+
+
+
+
+
+
+
+
+
+==========================================================
+3.
+                      Deleting text
+                      -------------
+
+The catt in the hat sat oon the mat.
+
+
+
+
+
+
+
+
+
+
+==========================================================
+4.
+                  Deleting text, part II
+                  ----------------------
+
+The incompetent tailor somehow managed to put an extra arm
+arm on the jacket.
+
+
+
+
+
+
+
+
+
+==========================================================
+5.
+     Declaring independence: Deleting text, part III
+     -----------------------------------------------
+
+When in the Course of human
+events it becomes neccessary         (TODO: spelling?)
+for one people to dissolve the
+political bands which have
+connected them with another
+
+
+
+
+
+
+==========================================================
+6.
+
+Experiment with stuff here!
+
+function makeIterator(array){
+    var nextIndex = 0;
+
+    return {
+       next: function(){
+           return nextIndex < array.length ?
+               {value: array[nextIndex++], done: false} :
+               {done: true};
+       }
+    }
+}
+
+Vim is the name of a range of household cleaning products
+originally produced by Lever Brothers.  The Vim brand is
+currently owned by European multi-national Spotless Group.
+
+Vim scouring powder, one of the first products created by
+William Lever, first appeared on the market in 1904, an
+offshoot of Monkey Brand scouring soap.  The name is
+thought to derive from the colloquial English word "vim"
+which has the same meaning as the Latin vis, vim ("force",
+"vigour").
+
+Vim was produced at Port Sunlight near Liverpool, England.
+The name Vim remained solely associated with the scouring
+powder until 1993 when a range of associated products were
+released.  Vim was also the name of a detergent tablet
+manufactured by Lever Brothers and sold in the United
+States during the 1960s.  It was the sponsor of the CBS
+sitcom The Lucy Show starring Lucille Ball.
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+https://en.wikipedia.org/wiki/Vim_%28cleaning_product%29
+
+==========================================================
+7.
+               Some new operators: c and y
+               ---------------------------
+
+I think, because I am.
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        # YOUR CODE HERE
+
+Copy: Supercalifragilisticexpialidocious
+
+Paste: 
+
+==========================================================
+8.
+                  Title redacted, part I
+                  ----------------------
+
+val empty_string = 'NOT EMPTY'
+
+"Welcome to my home," said the turnip.
+
+[one](two){three}
+
+class GoodbyeWorld {
+    something something programming;
+    lorem ipsum dolor sit amet;
+}
+
+==========================================================
+9.
+                 Title redacted, part II
+                 -----------------------
+
+Delete "inside" quotes      di"
+Delete "around" quotes      da"
+
+Change (inside) parens      di)
+Change (around) parens      da)
+
+
+
+
+
+
+==========================================================
+10.
+                  Text objects, part III
+                  ----------------------
+
+Mitch Hedberg quotes:
+
+    I bought a seven dollar pen because I always lose pens
+    and I got sick of not caring.
+
+    I'm against picketing, but I don't know how to show
+    it.
+
+    I used to do drugs. I still do, but I used to, too.
+
+    My fake plants died because I did not pretend to water
+    them.
+
+True facts:
+
+    A man in Texas, apparently, yelled, "Fuck alligators,"
+    jumped into a bayou, and then was immediately killed
+    by an alligator.
+
+    Due to safety concerns, selfie sticks are banned at
+    Disney theme parks.
+
+http://www.cnn.com/2015/07/04/us/texas-alligator-attack/index.html
+http://www.bbc.com/news/technology-33311071
+
+==========================================================
+11.
+                          Macros
+                          ------
+
+cowsay is a program which generates ASCII pictures of a
+cow with a message. It can also generate pictures using
+pre-made images of other animals, such as Tux the Penguin,
+the Linux mascot. It is written in Perl.
+
+    .    ^__^
+         .    (oo)\_______
+  .    (__)\       )\/\
+             .        ||----w |
+     .        ||     ||
+  .
+                .        .--.
+   .       |o_o |
+            .       |:_/ |
+     .      //   \ \
+                    .     (|     | )
+       .    /'\_   _/`\
+                            .    \___)=(___/
+
+https://en.wikipedia.org/wiki/Cowsay
